@@ -1,0 +1,24 @@
+{
+  "name": "portal_news",
+  "version": "1.0.0",
+  "description": "Portal de noticia simples utilizando Node.js com Express framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusnep1/portal_news.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express"
+  ],
+  "author": "Vinicius Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusnep1/portal_news/issues"
+  },
+  "homepage": "https://github.com/viniciusnep1/portal_news#readme"
+}
