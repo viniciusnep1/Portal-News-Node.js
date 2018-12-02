@@ -1,20 +1,13 @@
-var express = require('express');
-var app = express();
+var app = require('./config/server')
 
-app.set('view engine', 'ejs');
+var rutesNoticias = require('./app/routes/noticias')
+rutesNoticias(app);
 
-app.get('/', function(request, response){
-    response.render("home/index")
-})
+var rotaHome = require('./app/routes/home')
+rotaHome(app);
 
-app.get('/formulario_noticia', function(request, response){
-    response.render("admin/form_add_noticia")
-})
-
-
-app.get('/noticias', function(request, response){
-    response.render("noticias/noticia")
-})
+var formulario_noticia = require('./app/routes/formulario_noticia')
+formulario_noticia(app);
 
 app.listen(3000, function(){
     console.log('Servidor rodando com Express na porta 3000');
