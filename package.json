@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/viniciusnep1/portal_news/issues"
   },
-  "homepage": "https://github.com/viniciusnep1/portal_news#readme"
+  "homepage": "https://github.com/viniciusnep1/portal_news#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
